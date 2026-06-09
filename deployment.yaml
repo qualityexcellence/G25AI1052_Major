@@ -20,7 +20,7 @@ spec:
       containers:
       - name: mlops-app
         image: g25ai1052/mlops-major:v1
-        
+        imagePullPolicy: Always
 
         ports:
         - containerPort: 5000
